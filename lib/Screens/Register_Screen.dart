@@ -374,12 +374,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       //     .createUserWithEmailAndPassword(
                       //         emailController.text, passwordController.text)
                       //     .then((value) {
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Navigation(),
-                        ),
-                      );
+                      // Navigator.pushReplacement(
+                      //   context,
+                      //   MaterialPageRoute(
+                      //     builder: (context) => Navigation(),
+                      //   ),
+                      // );
                       //   final userId = FirebaseAuth.instance.currentUser!.uid;
                       //   saveUser(userId);
                       Fluttertoast.showToast(
