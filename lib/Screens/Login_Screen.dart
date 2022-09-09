@@ -195,7 +195,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       Container(
                         padding:
-                            EdgeInsets.symmetric(horizontal: 55, vertical: 10),
+                            EdgeInsets.symmetric(horizontal: 55, vertical: 10,),
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
