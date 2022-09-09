@@ -221,14 +221,14 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                         ),
-                        onPress: () {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => RegisterScreen(),
-                            ),
-                          );
-                        },
+                        // onPress: () {
+                        //   Navigator.pushReplacement(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //       builder: (context) => RegisterScreen(),
+                        //     ),
+                        //   );
+                        // },
                       ),
                     ],
                   ),
