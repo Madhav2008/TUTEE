@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:school_management_app/Screens/Login_Screen.dart';
 import 'package:school_management_app/Screens/Navigation_Screen.dart';
+import 'package:tutee_app/Screens/Login_Screen.dart';
 
 class RegisterScreen extends StatefulWidget {
   RegisterScreen({Key? key}) : super(key: key);
