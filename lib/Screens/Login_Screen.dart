@@ -1,18 +1,14 @@
-import 'package:Foodybite/auth/auth_services.dart';
-import 'package:Foodybite/screens/forget_password_screen/forget_password_screen.dart';
-import 'package:Foodybite/screens/login_screen/button.dart';
-import 'package:Foodybite/screens/navigation_screen/navigation_screen.dart';
-import 'package:Foodybite/screens/register_screen/register_screen.dart';
-import 'package:Foodybite/widgets/text_button.dart';
 import 'package:flutter/material.dart';
-// import 'package:fluttertoast/fluttertoast.dart';
-import 'package:provider/provider.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:school_management_app/Screens/Forget_Password_Screen.dart';
+import 'package:school_management_app/Screens/Navigation_Screen.dart';
+import 'package:school_management_app/Screens/Register_Screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
   @override
-  _LoginScreenState createState() => _LoginScreenState();
+  State<LoginScreen> createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<LoginScreen> {
@@ -23,7 +19,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final authService = Provider.of<AuthService>(context);
     Future.delayed(const Duration(milliseconds: 100), () {
       setState(() {
         _visible = true;
@@ -39,7 +34,9 @@ class _LoginScreenState extends State<LoginScreen> {
             height: MediaQuery.of(context).size.height,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/Login.png'),
+                image: AssetImage(
+                  '../assets/images/Login.jpg',
+                ),
                 fit: BoxFit.cover,
               ),
             ),
@@ -52,14 +49,14 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(top: 10.0),
-                    child: Image.network(
-                      "https://github.com/Madhav2008/App-Assets/blob/main/RecipoLogo.png?raw=true",
+                    child: Image.asset(
+                      "../assets/images/Logo.png",
                       width: 100,
                       height: 100,
                     ),
                   ),
                   Text(
-                    'Recipo',
+                    'School',
                     style: TextStyle(
                       fontSize: 40.0,
                       fontWeight: FontWeight.bold,
@@ -75,11 +72,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
                           borderSide: const BorderSide(
-                              color: Colors.redAccent, width: 0.0),
+                            color: Colors.blueAccent,
+                            width: 0.0,
+                          ),
                         ),
                         focusedBorder: OutlineInputBorder(
-                          borderSide:
-                              BorderSide(color: Colors.redAccent, width: 0.0),
+                          borderSide: BorderSide(
+                            color: Colors.blue,
+                            width: 0.0,
+                          ),
                         ),
                         prefixIcon: Icon(
                           Icons.mail,
@@ -104,11 +105,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
                           borderSide: const BorderSide(
-                              color: Colors.redAccent, width: 0.0),
+                            color: Colors.blueAccent,
+                            width: 0.0,
+                          ),
                         ),
                         focusedBorder: OutlineInputBorder(
-                          borderSide:
-                              BorderSide(color: Colors.redAccent, width: 0.0),
+                          borderSide: BorderSide(
+                            color: Colors.blue,
+                            width: 0.0,
+                          ),
                         ),
                         prefixIcon: Icon(
                           Icons.lock,
@@ -126,17 +131,27 @@ class _LoginScreenState extends State<LoginScreen> {
                   SizedBox(
                     height: 10,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 180),
-                    child: TextSimpleButton(
-                      title: 'Forget password?',
-                      colors: Colors.redAccent,
-                      onPress: () {
-                        Navigator.push(
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: Padding(
+                      padding: const EdgeInsets.only(right: 40),
+                      child: GestureDetector(
+                        child: Text(
+                          'Forget password?',
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.blue.shade100,
+                          ),
+                        ),
+                        onTap: () {
+                          Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => ForgetScreen()));
-                      },
+                              builder: (context) => ForgetScreen(),
+                            ),
+                          );
+                        },
+                      ),
                     ),
                   ),
                   SizedBox(
@@ -145,34 +160,63 @@ class _LoginScreenState extends State<LoginScreen> {
                   Center(
                     child: GestureDetector(
                       onTap: () async {
-                        authService
-                            .signInWithEmailAndPassword(
-                                emailController.text, passwordController.text)
-                            .then((auth) {
-                          Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Navigation()));
-                          // Fluttertoast.showToast(
-                          //     msg: "Login Successfully!!",
-                          //     toastLength: Toast.LENGTH_SHORT,
-                          //     gravity: ToastGravity.BOTTOM);
-                        }).catchError((error) {
-                          showDialog(
-                              context: context,
-                              builder: (con) {
-                                return AlertDialog(
-                                  title: Text("Error"),
-                                  content: Text(error.toString()),
-                                );
-                              });
-                        });
+                        // authService
+                        //     .signInWithEmailAndPassword(
+                        //         emailController.text, passwordController.text)
+                        //     .then((auth) {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Navigation(),
+                          ),
+                        );
+                        Fluttertoast.showToast(
+                          msg: "Login Successfully!!",
+                          toastLength: Toast.LENGTH_SHORT,
+                          gravity: ToastGravity.BOTTOM,
+                        );
+                        // }).catchError((error) {
+                        //   showDialog(
+                        //       context: context,
+                        //       builder: (con) {
+                        //         return AlertDialog(
+                        //           title: Text("Error"),
+                        //           content: Text(error.toString()),
+                        //         );
+                        //       });
+                        // });
                       },
                       child: Container(
                         width: MediaQuery.of(context).size.width * 0.5,
                         height: 50,
-                        child: Buttons(
-                          buttonText: 'Login',
+                        child: Container(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 55,
+                            vertical: 10,
+                          ),
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: [
+                                Colors.blueAccent,
+                                Colors.blue.shade700,
+                                Colors.blue.shade800,
+                                Colors.blue.shade900,
+                              ],
+                              begin: Alignment.centerLeft,
+                              end: Alignment.centerRight,
+                            ),
+                            borderRadius: BorderRadius.circular(40),
+                          ),
+                          child: Center(
+                            child: Text(
+                              'Login',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 17.3,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ),
@@ -193,11 +237,16 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         width: 5,
                       ),
-                      ElevatedButton(
-                        child: Text('Register'),
-                        // colors: Colors.redAccent,
-                        onPressed: () {
-                          Navigator.pushReplacement(
+                      GestureDetector(
+                        child: Text(
+                          'Register',
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.blue.shade100,
+                          ),
+                        ),
+                        onTap: () {
+                          Navigator.push(
                             context,
                             MaterialPageRoute(
                               builder: (context) => RegisterScreen(),
