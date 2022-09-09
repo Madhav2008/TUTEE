@@ -194,7 +194,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         width: 5,
                       ),
                       ElevatedButton(
-                        title: 'Register',
+                        child: 'Register',
                         // colors: Colors.redAccent,
                         onPressed: () {
                           Navigator.pushReplacement(
