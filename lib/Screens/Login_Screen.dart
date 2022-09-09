@@ -53,9 +53,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   Padding(
                     padding: const EdgeInsets.only(top: 10.0),
                     child: Image.network(
-                      "https://github.com/Madhav2008/App-Assets/blob/main/RecipoLogo.png?raw=true",
-                      width: 100,
-                      height: 100,
+                        "https://github.com/Madhav2008/App-Assets/blob/main/RecipoLogo.png?raw=true",
+                        width: 100,
+                        height: 100,
                     ),
                   ),
                   Text(
@@ -78,8 +78,8 @@ class _LoginScreenState extends State<LoginScreen> {
                               color: Colors.redAccent, width: 0.0),
                         ),
                         focusedBorder: OutlineInputBorder(
-                          borderSide:
-                              BorderSide(color: Colors.redAccent, width: 0.0),
+                          borderSide: BorderSide(
+                              color: Colors.redAccent, width: 0.0),
                         ),
                         prefixIcon: Icon(
                           Icons.mail,
@@ -107,8 +107,8 @@ class _LoginScreenState extends State<LoginScreen> {
                               color: Colors.redAccent, width: 0.0),
                         ),
                         focusedBorder: OutlineInputBorder(
-                          borderSide:
-                              BorderSide(color: Colors.redAccent, width: 0.0),
+                          borderSide: BorderSide(
+                              color: Colors.redAccent, width: 0.0),
                         ),
                         prefixIcon: Icon(
                           Icons.lock,
@@ -169,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         });
                       },
                       child: Container(
-                        width: MediaQuery.of(context).size.width * 0.5,
+                        width: MediaQuery.of(context).size.width*0.5,
                         height: 50,
                         child: Buttons(
                           buttonText: 'Login',
@@ -200,8 +200,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => RegisterScreen(),
-                              ));
+                                  builder: (context) => RegisterScreen()));
                         },
                       ),
                     ],
