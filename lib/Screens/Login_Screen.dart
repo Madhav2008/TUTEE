@@ -219,7 +219,6 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
       ),
     
-                        colors: Colors.redAccent,
                         onPress: () {
                           Navigator.pushReplacement(
                             context,
