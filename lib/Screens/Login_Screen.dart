@@ -193,7 +193,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         width: 5,
                       ),
-                      TextSimpleButton(
+                      ElevatedButton(
                         title: 'Register',
                         colors: Colors.redAccent,
                         onPress: () {
