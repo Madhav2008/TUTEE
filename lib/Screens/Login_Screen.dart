@@ -181,7 +181,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         // });
                       },
                       child: Container(
-                        width: MediaQuery.of(context).size.width * 0.5,
+                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
                         height: 50,
                         child: Container(
                           padding: EdgeInsets.symmetric(
