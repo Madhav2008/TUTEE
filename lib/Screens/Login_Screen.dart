@@ -83,7 +83,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             color: Colors.white70,
                             width: 0.0,
                           ),
-                        ),border: InputBorder(),
+                        ),
                         hintText: 'Email',
                         hintStyle: TextStyle(
                           color: Colors.white,
