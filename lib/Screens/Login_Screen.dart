@@ -198,7 +198,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           child: Center(
                             child: Text(
-                              'Login',
+                              'Sign In',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
