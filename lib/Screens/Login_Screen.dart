@@ -95,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   SizedBox(height: 20),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 40.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
                     child: TextField(
                       obscureText: true,
                       controller: passwordController,
