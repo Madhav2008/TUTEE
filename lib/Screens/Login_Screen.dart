@@ -65,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   //     color: Colors.white,
                   //   ),
                   // ),
-                  SizedBox(height: 70),
+                  SizedBox(height: 50),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20.0),
                     child: TextField(
