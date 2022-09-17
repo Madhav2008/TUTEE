@@ -59,14 +59,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       height: 300,
                     ),
                   ),
-                  Text(
-                    'School',
-                    style: TextStyle(
-                      fontSize: 40.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  ),
+                  // Text(
+                  //   'School',
+                  //   style: TextStyle(
+                  //     fontSize: 40.0,
+                  //     fontWeight: FontWeight.bold,
+                  //     color: Colors.white,
+                  //   ),
+                  // ),
                   SizedBox(height: 70),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 40.0),
