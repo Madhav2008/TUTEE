@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 10.0),
+                    padding: const EdgeInsets.only(top: 0.0),
                     child: Image.asset(
                       "../assets/Logo2.png",
                       width: 400,
