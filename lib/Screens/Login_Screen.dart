@@ -18,7 +18,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
-  
+  var color = 0xFF8B69C6;
 
   @override
   Widget build(BuildContext context) {
