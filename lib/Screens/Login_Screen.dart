@@ -18,7 +18,6 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
-
   @override
   Widget build(BuildContext context) {
     Future.delayed(const Duration(milliseconds: 100), () {
