@@ -113,10 +113,6 @@ class _LoginScreenState extends State<LoginScreen> {
                             width: 0.0,
                           ),
                         ),
-                        prefixIcon: Icon(
-                          Icons.lock,
-                          color: Colors.white,
-                        ),
                         hintText: 'Password',
                         hintStyle: TextStyle(
                           color: Colors.white,
