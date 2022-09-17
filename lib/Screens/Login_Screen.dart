@@ -46,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.black54,
+              // color: Colors.black54,
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
