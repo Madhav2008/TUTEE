@@ -84,10 +84,6 @@ class _LoginScreenState extends State<LoginScreen> {
                             width: 0.0,
                           ),
                         ),
-                        prefixIcon: Icon(
-                          Icons.mail,
-                          color: Colors.white,
-                        ),
                         hintText: 'Email',
                         hintStyle: TextStyle(
                           color: Colors.white,
