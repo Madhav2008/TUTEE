@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       body: SingleChildScrollView(
         child: AnimatedOpacity(
-          opacity: 1,
+          opacity: 15,
           duration: Duration(seconds: 1),
           child: Container(
             width: MediaQuery.of(context).size.width,
