@@ -410,7 +410,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       // });
                     },
                     child: Container(
-                      width: MediaQuery.of(context).size.width * 0.58,
+                      padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       height: 70,
                       child: Container(
                         padding: EdgeInsets.symmetric(
