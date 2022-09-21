@@ -16,7 +16,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
   // Widget build(BuildContext context) {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
-  final TextEditingController confirmPasswordController = TextEditingController();
+  final TextEditingController confirmPasswordController =
+      TextEditingController();
   final TextEditingController subjectController = TextEditingController();
   final TextEditingController hourlyRateController = TextEditingController();
   final TextEditingController bioController = TextEditingController();
@@ -217,61 +218,61 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 //   ),
                 // ),
                 Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                    child: TextField(
-                      controller: emailController,
-                      style: TextStyle(color: Colors.white),
-                      decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            color: Colors.white60,
-                            width: 0.0,
-                          ),
+                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                  child: TextField(
+                    controller: emailController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: InputDecoration(
+                      enabledBorder: const OutlineInputBorder(
+                        borderSide: const BorderSide(
+                          color: Colors.white60,
+                          width: 0.0,
                         ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Colors.white,
-                            width: 0.0,
-                          ),
-                        ),
-                        hintText: 'Email',
-                        hintStyle: TextStyle(
-                          color: Colors.white,
-                        ),
-                        fillColor: Colors.white,
-                        focusColor: Colors.white,
                       ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.white,
+                          width: 0.0,
+                        ),
+                      ),
+                      hintText: 'Email',
+                      hintStyle: TextStyle(
+                        color: Colors.white,
+                      ),
+                      fillColor: Colors.white,
+                      focusColor: Colors.white,
                     ),
                   ),
-                  SizedBox(height: 20),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                    child: TextField(
-                      obscureText: true,
-                      controller: passwordController,
-                      style: TextStyle(color: Colors.white),
-                      decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            color: Colors.white60,
-                            width: 0.0,
-                          ),
+                ),
+                SizedBox(height: 20),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                  child: TextField(
+                    obscureText: true,
+                    controller: passwordController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: InputDecoration(
+                      enabledBorder: const OutlineInputBorder(
+                        borderSide: const BorderSide(
+                          color: Colors.white60,
+                          width: 0.0,
                         ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Colors.white,
-                            width: 0.0,
-                          ),
-                        ),
-                        hintText: 'Password',
-                        hintStyle: TextStyle(
-                          color: Colors.white,
-                        ),
-                        fillColor: Colors.white,
-                        focusColor: Colors.white,
                       ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.white,
+                          width: 0.0,
+                        ),
+                      ),
+                      hintText: 'Password',
+                      hintStyle: TextStyle(
+                        color: Colors.white,
+                      ),
+                      fillColor: Colors.white,
+                      focusColor: Colors.white,
                     ),
                   ),
+                ),
                 SizedBox(
                   height: 30,
                 ),
