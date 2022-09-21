@@ -329,7 +329,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       focusColor: Colors.white,
                     ),
                   ),
-                ),
+                ),SizedBox(height: 20),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: TextField(
