@@ -116,11 +116,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  "../assets/images/Logo.png",
-                  width: 100,
-                  height: 100,
-                ),
                 Text(
                   'School',
                   style: TextStyle(
