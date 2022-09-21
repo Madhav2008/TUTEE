@@ -306,7 +306,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: TextField(
                     obscureText: true,
-                    controller: passwordController,
+                    controller: subjectController,
                     style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       enabledBorder: const OutlineInputBorder(
