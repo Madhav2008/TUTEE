@@ -418,9 +418,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           vertical: 10,
                         ),
                         decoration: BoxDecoration(
-                            color: Colors.deepPurple[600],
-                            borderRadius: BorderRadius.circular(10),
-                          ),
+                          color: Colors.deepPurple[600],
+                          borderRadius: BorderRadius.circular(10),
+                        ),
                         child: Center(
                           child: Text(
                             'Register',
