@@ -439,37 +439,39 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   height: 30,
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Already have an account?',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 15,
-                      ),
-                    ),
-                    SizedBox(
-                      width: 5,
-                    ),
-                    GestureDetector(
-                      child: Text(
-                        'Login',
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Not a member?',
                         style: TextStyle(
-                          fontSize: 16.0,
-                          color: Colors.blue.shade100,
+                          color: Colors.white,
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => LoginScreen(),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      GestureDetector(
+                        child: Text(
+                          'Register now',
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.purple[100],
+                            fontWeight: FontWeight.bold,
                           ),
-                        );
-                      },
-                    ),
-                  ],
-                )
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => RegisterScreen(),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
               ],
             ),
           ),
