@@ -213,7 +213,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Create new account?',
+                        'Not a member?',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 15,
