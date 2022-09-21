@@ -227,7 +227,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           'Register now',
                           style: TextStyle(
                             fontSize: 16.0,
-                            color: Colors.blue.shade100,
+                            color: Colors.purple[200],
                           ),
                         ),
                         onTap: () {
