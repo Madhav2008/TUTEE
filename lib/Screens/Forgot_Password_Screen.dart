@@ -34,9 +34,9 @@ class _LoginScreenState extends State<ForgotScreen> {
             // ),
           ),
           child: Container(
-            decoration: BoxDecoration(
-              color: Colors.black54,
-            ),
+            // decoration: BoxDecoration(
+            //   color: Colors.black54,
+            // ),
             child: Column(
               children: [
                 Padding(
