@@ -128,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Align(
                     alignment: Alignment.topRight,
                     child: Padding(
-                      padding: const EdgeInsets.only(right: 40),
+                      padding: const EdgeInsets.only(right: 20),
                       child: GestureDetector(
                         child: Text(
                           'Forgot password?',
