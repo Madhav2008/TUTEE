@@ -298,7 +298,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       prefixIcon: Icon(
-                        Icons.assignment_outlined,
+                        Icons.email,
                         color: Colors.white,
                       ),
                       hintText: 'Email',
