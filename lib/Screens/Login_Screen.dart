@@ -216,7 +216,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         'Not a member?',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 15,
+                          fontSize: 15,fontWeight
                         ),
                       ),
                       SizedBox(
