@@ -349,7 +349,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           width: 0.0,
                         ),
                       ),
-                      hintText: '$ Hourly',
+                      hintText: '$ Hourly Rate',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
