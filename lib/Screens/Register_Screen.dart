@@ -328,7 +328,62 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       focusColor: Colors.white,
                     ),
                   ),
-                ),
+                ),Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                    child: TextField(
+                      controller: emailController,
+                      style: TextStyle(color: Colors.white),
+                      decoration: InputDecoration(
+                        enabledBorder: const OutlineInputBorder(
+                          borderSide: const BorderSide(
+                            color: Colors.white60,
+                            width: 0.0,
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.white,
+                            width: 0.0,
+                          ),
+                        ),
+                        hintText: 'Email',
+                        hintStyle: TextStyle(
+                          color: Colors.white,
+                        ),
+                        fillColor: Colors.white,
+                        focusColor: Colors.white,
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 20),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                    child: TextField(
+                      obscureText: true,
+                      controller: passwordController,
+                      style: TextStyle(color: Colors.white),
+                      decoration: InputDecoration(
+                        enabledBorder: const OutlineInputBorder(
+                          borderSide: const BorderSide(
+                            color: Colors.white60,
+                            width: 0.0,
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.white,
+                            width: 0.0,
+                          ),
+                        ),
+                        hintText: 'Password',
+                        hintStyle: TextStyle(
+                          color: Colors.white,
+                        ),
+                        fillColor: Colors.white,
+                        focusColor: Colors.white,
+                      ),
+                    ),
+                  ),
                 SizedBox(
                   height: 30,
                 ),
