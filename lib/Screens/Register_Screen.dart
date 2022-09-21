@@ -16,7 +16,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   // Widget build(BuildContext context) {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
-  final TextEditingController ConfirmPasswordController = TextEditingController();
+  final TextEditingController confirmPasswordController = TextEditingController();
   final TextEditingController nameController = TextEditingController();
   final TextEditingController contactController = TextEditingController();
   final TextEditingController bioController = TextEditingController();
