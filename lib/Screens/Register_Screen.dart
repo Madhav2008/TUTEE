@@ -119,7 +119,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 Text(
                   'Register below with your details',
                   style: TextStyle(
-                    fontSize: 40.0,
+                    fontSize: 20.0,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
