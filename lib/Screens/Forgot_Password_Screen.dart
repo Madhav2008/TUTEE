@@ -77,32 +77,32 @@ class _LoginScreenState extends State<ForgotScreen> {
                 ),
                 SizedBox(height: 55),
                 Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                    child: TextField(
-                      controller: emailController,
-                      style: TextStyle(color: Colors.white),
-                      decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            color: Colors.white60,
-                            width: 0.0,
-                          ),
+                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                  child: TextField(
+                    controller: emailController,
+                    style: TextStyle(color: Colors.white),
+                    decoration: InputDecoration(
+                      enabledBorder: const OutlineInputBorder(
+                        borderSide: const BorderSide(
+                          color: Colors.white60,
+                          width: 0.0,
                         ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Colors.white70,
-                            width: 0.0,
-                          ),
-                        ),
-                        hintText: 'Email',
-                        hintStyle: TextStyle(
-                          color: Colors.white,
-                        ),
-                        fillColor: Colors.white,
-                        focusColor: Colors.white,
                       ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.white70,
+                          width: 0.0,
+                        ),
+                      ),
+                      hintText: 'Email',
+                      hintStyle: TextStyle(
+                        color: Colors.white,
+                      ),
+                      fillColor: Colors.white,
+                      focusColor: Colors.white,
                     ),
                   ),
+                ),
                 SizedBox(height: 20),
                 Center(
                   child: GestureDetector(
