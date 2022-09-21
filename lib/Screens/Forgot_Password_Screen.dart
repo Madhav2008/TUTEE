@@ -57,7 +57,7 @@ class _LoginScreenState extends State<ForgetScreen> {
                         width: 45.0,
                       ),
                       Text(
-                        'Forget Password',
+                        'Forgot Password',
                         style: TextStyle(
                           fontSize: 20.0,
                           color: Colors.white,
