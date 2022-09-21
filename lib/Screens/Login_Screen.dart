@@ -229,7 +229,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           'Register now',
                           style: TextStyle(
                             fontSize: 16.0,
-                            color: Colors.purple[200],
+                            color: Colors.purple[100],
                             fontWeight: FontWeight.bold,
                           ),
                         ),
