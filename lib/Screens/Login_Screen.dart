@@ -166,7 +166,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         //   ),
                         // );
                         Fluttertoast.showToast(
-                          msg: "Login Successfully!!",dynamic webBgColor = "linear-gradient(to right, #00b09b, #96c93d)",
+                          msg: "Login Successfully!!",webBgColor = "linear-gradient(to right, #00b09b, #96c93d)",
 
                           toastLength: Toast.LENGTH_SHORT,
                           gravity: ToastGravity.BOTTOM,
