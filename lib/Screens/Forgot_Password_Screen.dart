@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class ForgotScreen extends StatefulWidget {
-  const ForgetScreen({Key? key}) : super(key: key);
+  const ForgotScreen({Key? key}) : super(key: key);
 
   @override
   _LoginScreenState createState() => _LoginScreenState();
