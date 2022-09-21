@@ -363,7 +363,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       prefixIcon: Icon(
-                        Icons.assignment_outlined,
+                        Icons.phone,
                         color: Colors.white,
                       ),
                       hintText: 'Contact',
