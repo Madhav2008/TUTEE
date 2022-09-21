@@ -182,7 +182,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       },
                       child: Container(
                         padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                        height: 60,
+                        height: 65,
                         child: Container(
                           padding: EdgeInsets.symmetric(
                             horizontal: 55,
