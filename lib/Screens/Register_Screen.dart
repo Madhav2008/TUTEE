@@ -287,21 +287,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     decoration: InputDecoration(
                       enabledBorder: const OutlineInputBorder(
                         borderSide: const BorderSide(
-                          color: Colors.white70,
-                          width: 0.0,
-                        ),
+                            color: Colors.blueAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.white,
-                          width: 0.0,
-                        ),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
-                        Icons.assignment_outlined,
+                        Icons.mail,
                         color: Colors.white,
                       ),
-                      hintText: 'Bio',
+                      hintText: 'Email',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
@@ -320,21 +315,16 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     decoration: InputDecoration(
                       enabledBorder: const OutlineInputBorder(
                         borderSide: const BorderSide(
-                          color: Colors.white70,
-                          width: 0.0,
-                        ),
+                            color: Colors.blueAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.white,
-                          width: 0.0,
-                        ),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
-                        Icons.assignment_outlined,
+                        Icons.lock,
                         color: Colors.white,
                       ),
-                      hintText: 'Bio',
+                      hintText: 'Password',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
