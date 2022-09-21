@@ -292,7 +292,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           width: 0.0,
                         ),
                       ),
-                      hintText: 'Email',
+                      hintText: 'Confirm',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
