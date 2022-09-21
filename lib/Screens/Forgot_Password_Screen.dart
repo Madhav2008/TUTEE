@@ -8,7 +8,7 @@ class ForgotScreen extends StatefulWidget {
   _LoginScreenState createState() => _LoginScreenState();
 }
 
-class _LoginScreenState extends State<ForgetScreen> {
+class _LoginScreenState extends State<ForgotScreen> {
   bool _visible = false;
   final TextEditingController emailController = TextEditingController();
 
