@@ -110,9 +110,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
           ),
           child: Container(
             height: MediaQuery.of(context).size.height,
-            decoration: BoxDecoration(
-              color: Colors.black54,
-            ),
+            // decoration: BoxDecoration(
+            //   color: Colors.black54,
+            // ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
