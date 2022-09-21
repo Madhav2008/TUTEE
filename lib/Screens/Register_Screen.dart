@@ -18,7 +18,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController passwordController = TextEditingController();
   final TextEditingController confirmPasswordController = TextEditingController();
   final TextEditingController subjectController = TextEditingController();
-  final TextEditingController contactController = TextEditingController();
+  final TextEditingController hourlyRateController = TextEditingController();
   final TextEditingController bioController = TextEditingController();
 
   // File? _imageFile;
