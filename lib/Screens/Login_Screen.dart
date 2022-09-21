@@ -224,7 +224,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       GestureDetector(
                         child: Text(
-                          'Register ',
+                          'Register now',
                           style: TextStyle(
                             fontSize: 16.0,
                             color: Colors.blue.shade100,
