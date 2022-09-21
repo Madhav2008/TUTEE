@@ -118,7 +118,7 @@ class _LoginScreenState extends State<ForgotScreen> {
                       );
                     },
                     child: Container(
-                      width: MediaQuery.of(context).size.width * 0.9,
+                      width: MediaQuery.of(context).size.width * 0.5,
                       height: 50,
                       child: Container(
                         padding: EdgeInsets.symmetric(
