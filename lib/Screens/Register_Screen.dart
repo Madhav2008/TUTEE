@@ -287,16 +287,21 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     decoration: InputDecoration(
                       enabledBorder: const OutlineInputBorder(
                         borderSide: const BorderSide(
-                            color: Colors.blueAccent, width: 0.0),
+                          color: Colors.white70,
+                          width: 0.0,
+                        ),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
+                        borderSide: BorderSide(
+                          color: Colors.white,
+                          width: 0.0,
+                        ),
                       ),
                       prefixIcon: Icon(
-                        Icons.mail,
+                        Icons.assignment_outlined,
                         color: Colors.white,
                       ),
-                      hintText: 'Email',
+                      hintText: 'Bio',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
