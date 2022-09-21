@@ -142,7 +142,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         onTap: () {
                           Navigator.push(
-                            context,  
+                            context,
                             MaterialPageRoute(
                               builder: (context) => ForgotScreen(),
                             ),
