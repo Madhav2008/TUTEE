@@ -169,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           msg: "Login Successfully!!",
                           webBgColor:
                               "linear-gradient(to right, #6A359C, #804FB3)",
-                          // "linear-gradient(to right, #552586, #6A359C, #804FB3)",
+                              // "linear-gradient(to right, #552586, #6A359C, #804FB3)",
                           toastLength: Toast.LENGTH_SHORT,
                           gravity: ToastGravity.BOTTOM,
                         );
