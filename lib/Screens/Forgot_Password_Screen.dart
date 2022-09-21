@@ -109,7 +109,9 @@ class _LoginScreenState extends State<ForgotScreen> {
                     onTap: () async {
                       // send();
                       Fluttertoast.showToast(
-                        msg: "Mail Sent Successfully!!",
+                        msg: "Mail Sent Successfully!!",webBgColor:
+                              "linear-gradient(to right, #6A359C, #804FB3)",
+                          // "linear-gradient(to right, #552586, #6A359C, #804FB3)",
                         toastLength: Toast.LENGTH_SHORT,
                         gravity: ToastGravity.BOTTOM,
                       );
