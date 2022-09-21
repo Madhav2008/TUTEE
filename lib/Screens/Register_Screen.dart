@@ -331,7 +331,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       prefixIcon: Icon(
-                        Icons.assignment_outlined,
+                        Icons.lock,
                         color: Colors.white,
                       ),
                       hintText: 'Password',
