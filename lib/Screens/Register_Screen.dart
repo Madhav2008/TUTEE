@@ -378,7 +378,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           width: 0.0,
                         ),
                       ),
-                      hintText: 'Password',
+                      hintText: 'Bio',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
