@@ -217,165 +217,61 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 //   ),
                 // ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                  child: TextField(
-                    controller: emailController,
-                    style: TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Colors.white60,
-                          width: 0.0,
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                    child: TextField(
+                      controller: emailController,
+                      style: TextStyle(color: Colors.white),
+                      decoration: InputDecoration(
+                        enabledBorder: const OutlineInputBorder(
+                          borderSide: const BorderSide(
+                            color: Colors.white60,
+                            width: 0.0,
+                          ),
                         ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.white,
+                            width: 0.0,
+                          ),
+                        ),
+                        hintText: 'Email',
+                        hintStyle: TextStyle(
                           color: Colors.white,
-                          width: 0.0,
                         ),
+                        fillColor: Colors.white,
+                        focusColor: Colors.white,
                       ),
-                      prefixIcon: Icon(
-                        Icons.supervised_user_circle_outlined,
-                        color: Colors.white,
-                      ),
-                      hintText: 'Name',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
-                      fillColor: Colors.white,
-                      focusColor: Colors.white,
                     ),
                   ),
-                ),
-                SizedBox(height: 20),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                  child: TextField(
-                    controller: bioController,
-                    style: TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Colors.white70,
-                          width: 0.0,
+                  SizedBox(height: 20),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                    child: TextField(
+                      obscureText: true,
+                      controller: passwordController,
+                      style: TextStyle(color: Colors.white),
+                      decoration: InputDecoration(
+                        enabledBorder: const OutlineInputBorder(
+                          borderSide: const BorderSide(
+                            color: Colors.white60,
+                            width: 0.0,
+                          ),
                         ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.white,
+                            width: 0.0,
+                          ),
+                        ),
+                        hintText: 'Password',
+                        hintStyle: TextStyle(
                           color: Colors.white,
-                          width: 0.0,
                         ),
+                        fillColor: Colors.white,
+                        focusColor: Colors.white,
                       ),
-                      prefixIcon: Icon(
-                        Icons.assignment_outlined,
-                        color: Colors.white,
-                      ),
-                      hintText: 'Bio',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
-                      fillColor: Colors.white,
-                      focusColor: Colors.white,
                     ),
                   ),
-                ),
-                SizedBox(height: 20),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                  child: TextField(
-                    controller: emailController,
-                    style: TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Colors.white70,
-                          width: 0.0,
-                        ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.white,
-                          width: 0.0,
-                        ),
-                      ),
-                      prefixIcon: Icon(
-                        Icons.email,
-                        color: Colors.white,
-                      ),
-                      hintText: 'Email',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
-                      fillColor: Colors.white,
-                      focusColor: Colors.white,
-                    ),
-                  ),
-                ),
-                SizedBox(height: 20),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                  child: TextField(
-                    obscureText: true,
-                    controller: passwordController,
-                    style: TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Colors.white70,
-                          width: 0.0,
-                        ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.white,
-                          width: 0.0,
-                        ),
-                      ),
-                      prefixIcon: Icon(
-                        Icons.lock,
-                        color: Colors.white,
-                      ),
-                      hintText: 'Password',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
-                      fillColor: Colors.white,
-                      focusColor: Colors.white,
-                    ),
-                  ),
-                ),
-                SizedBox(height: 20),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                  child: TextField(
-                    controller: contactController,
-                    style: TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Colors.white70,
-                          width: 0.0,
-                        ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.white,
-                          width: 0.0,
-                        ),
-                      ),
-                      prefixIcon: Icon(
-                        Icons.phone,
-                        color: Colors.white,
-                      ),
-                      hintText: 'Contact',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
-                      fillColor: Colors.white,
-                      focusColor: Colors.white,
-                    ),
-                  ),
-                ),
                 SizedBox(
                   height: 30,
                 ),
