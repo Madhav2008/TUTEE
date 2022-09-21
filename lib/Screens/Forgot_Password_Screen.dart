@@ -26,7 +26,8 @@ class _LoginScreenState extends State<ForgetScreen> {
         child: Container(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
-          decoration: BoxDecoration(color: Colors.deepPurple[400],
+          decoration: BoxDecoration(
+            color: Colors.deepPurple[400],
             // image: DecorationImage(
             //   image: AssetImage('../assets/images/Forget.jpg'),
             //   fit: BoxFit.cover,
