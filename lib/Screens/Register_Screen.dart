@@ -117,7 +117,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Register below with',
+                  'Register below with your',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
