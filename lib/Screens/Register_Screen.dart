@@ -439,39 +439,39 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   height: 30,
                 ),
                 Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Not a member?',
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'Not a member?',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    GestureDetector(
+                      child: Text(
+                        'Register now',
                         style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 15,
+                          fontSize: 16.0,
+                          color: Colors.purple[100],
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      GestureDetector(
-                        child: Text(
-                          'Register now',
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.purple[100],
-                            fontWeight: FontWeight.bold,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => RegisterScreen(),
                           ),
-                        ),
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => RegisterScreen(),
-                            ),
-                          );
-                        },
-                      ),
-                    ],
-                  ),
+                        );
+                      },
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
