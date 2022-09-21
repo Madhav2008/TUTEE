@@ -301,7 +301,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         Icons.assignment_outlined,
                         color: Colors.white,
                       ),
-                      hintText: 'Bio',
+                      hintText: 'Email',
                       hintStyle: TextStyle(
                         color: Colors.white,
                       ),
