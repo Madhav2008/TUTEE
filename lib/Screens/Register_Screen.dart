@@ -442,7 +442,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Already?',
+                      'Already have?',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 15,
