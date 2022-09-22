@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:tutee_app/Screens/Forgot_Password_Screen.dart';
+import 'package:tutee_app/Screens/Home_Screen.dart';
 // import 'package:school_management_app/Screens/Forget_Password_Screen.dart';
 // import 'package:school_management_app/Screens/Navigation_Screen.dart';
 // import 'package:school_management_app/Screens/Register_Screen.dart';
@@ -164,7 +165,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => (),
+                            builder: (context) => HomeScreen(),
                           ),
                         );
                         Fluttertoast.showToast(
