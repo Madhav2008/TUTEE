@@ -308,6 +308,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   textOn: "TUTOR",
                   textOff: "TUTEE",
                   colorOn: Colors.greenAccent,
+                  colorOn: Colors.greenAccent,
                 ),
                 SizedBox(height: 20),
                 Padding(
