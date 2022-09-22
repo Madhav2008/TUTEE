@@ -310,7 +310,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   colorOn: Colors.greenAccent,
                   colorOff: Colors.redAccent,
                   iconOn: Icons.bookmark,
-                  iconOff: Icons.book,
+                  iconOff: Icons.book,onChanged: (bool state) {
+      //Use it to manage the different states
+      print('Current State of SWITCH IS: $state');
+    },
                 ),
                 SizedBox(height: 20),
                 Padding(
