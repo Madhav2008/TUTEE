@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen>
                               size: 26,
                             );
                             appBarTitle = Text(
-                              'WhatsApp India',
+                              'TUTEE',
                               style: TextStyle(
                                 fontSize: 20,
                                 letterSpacing: 2,
