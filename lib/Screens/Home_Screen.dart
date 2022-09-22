@@ -223,7 +223,9 @@ class _HomeScreenState extends State<HomeScreen>
                     // );
                   },
                 )
-              : null,floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+              : null,
+          floatingActionButtonLocation:
+              FloatingActionButtonLocation.centerFloat,
         ),
       );
 
