@@ -210,7 +210,8 @@ class _NavigationScreenState extends State<NavigationScreen>
                     Icons.message,
                     color: Colors.white,
                   ),
-                  onPressed: () => Navigator.push(
+                  onPressed: () {
+                    Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (builder) => SelectContact(
@@ -218,7 +219,8 @@ class _NavigationScreenState extends State<NavigationScreen>
                           // chatModels: widget.chatModels,
                           ),
                     ),
-                  ),
+                  );
+                  },
                 )
               : null,
         ),
