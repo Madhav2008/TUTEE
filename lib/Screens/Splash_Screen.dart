@@ -35,15 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
         ? '../assets/images/WhatsAppIndiaLogo1.png'
         : '../assets/images/WhatsAppIndiaLogo.png';
 
-    return
-     ChangeNotifierProvider(
-          create: (context) {
-            ConnectivityChangeNotifier changeNotifier =
-                ConnectivityChangeNotifier();
-            changeNotifier.initialLoad();
-            return changeNotifier;
-          },
-          child: Scaffold(
+    return Scaffold(
             body: Align(
               alignment: Alignment.center,
               child: Column(
