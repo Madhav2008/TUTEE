@@ -95,7 +95,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                             actionIcon = Icon(Icons.close);
                             appBarTitle = TextField(
                               style: TextStyle(
-                                color: white,
+                                color: Colors.white,
                               ),
                               autofocus: true,
                               controller: _hi,
@@ -103,11 +103,11 @@ class _NavigationScreenState extends State<NavigationScreen>
                                 prefixIcon: Icon(
                                   Icons.search,
                                   size: 26,
-                                  color: white,
+                                  color: Colors.white,
                                 ),
                                 hintText: "search".tr,
                                 hintStyle: TextStyle(
-                                  color: white,
+                                  color: Colors.white,
                                 ),
                               ),
                             );
@@ -132,7 +132,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                       data: Theme.of(context).copyWith(
                         dividerColor: black,
                         iconTheme: IconThemeData(
-                          color: white,
+                          color: Colors.white,
                         ),
                         textTheme: TextTheme().apply(),
                       ),
@@ -239,9 +239,9 @@ class _NavigationScreenState extends State<NavigationScreen>
                   snap: true,
                   bottom: TabBar(
                     controller: _tabController,
-                    indicatorColor: white,
+                    indicatorColor: Colors.white,
                     indicatorWeight: 3,
-                    labelColor: white,
+                    labelColor: Colors.white,
                     labelStyle: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
@@ -303,7 +303,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                   backgroundColor: one,
                   child: Icon(
                     Icons.message,
-                    color: white,
+                    color: Colors.white,
                   ),
                   onPressed: () => Navigator.push(
                     context,
