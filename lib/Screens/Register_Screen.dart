@@ -319,7 +319,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       onChanged: (bool) {},
                       onSwipe: () {},
                       onTap: () {},
-                    ),Text('TUTEE'),
+                    ),Text('TUTOR'),
                   ],
                 ),
                 SizedBox(height: 20),
