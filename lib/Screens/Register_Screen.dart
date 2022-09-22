@@ -364,7 +364,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   child: TextField(
                     controller: bioController,
                     expands: true,
-                    maxLines: 0,
+                    maxLines: 1,
                     minLines: 0,
                     style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
