@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class NavigationScreen extends StatefulWidget {
-  late List<CameraDescription> cameras;
   NavigationScreen({
     Key? key,
     required this.cameras,
