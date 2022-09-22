@@ -335,7 +335,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       'TUTOR',
                       style: TextStyle(
                         fontSize: 20,
-                        color: Colors.white,fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ],
