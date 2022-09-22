@@ -311,7 +311,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       'TUTEE',
                       style: TextStyle(
                         fontSize: 20,
-                        color: Colors.white,fontWeight: FontWeight
+                        color: Colors.white,fontWeight: FontWeight.bold
                       ),
                     ),
                     Padding(
