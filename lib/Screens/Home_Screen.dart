@@ -82,7 +82,8 @@ class _HomeScreenState extends State<HomeScreen>
                   backgroundColor: Colors.deepPurple[600],
                   automaticallyImplyLeading: false,
                   title: appBarTitle,
-                  titleTextStyle: TextStyle(color: Colors.white,
+                  titleTextStyle: TextStyle(
+                    color: Colors.white,
                     fontSize: 20,
                     letterSpacing: 10,
                   ),
