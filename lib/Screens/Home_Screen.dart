@@ -212,14 +212,14 @@ class _NavigationScreenState extends State<NavigationScreen>
                   ),
                   onPressed: () {
                     Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (builder) => SelectContact(
-                          // sourceChat: widget.sourceChat,
-                          // chatModels: widget.chatModels,
-                          ),
-                    ),
-                  );
+                      context,
+                      MaterialPageRoute(
+                        builder: (builder) => SelectContact(
+                            // sourceChat: widget.sourceChat,
+                            // chatModels: widget.chatModels,
+                            ),
+                      ),
+                    );
                   },
                 )
               : null,
