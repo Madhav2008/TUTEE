@@ -71,8 +71,7 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   @override
-  Widget build(BuildContext context) =>
-      DefaultTabController(
+  Widget build(BuildContext context) => DefaultTabController(
         length: 4,
         child: Scaffold(
           body: NestedScrollView(
@@ -82,7 +81,8 @@ class _HomeScreenState extends State<HomeScreen>
                 SliverAppBar(
                   backgroundColor: Colors.deepPurple[600],
                   automaticallyImplyLeading: false,
-                  title: appBarTitle,centerTitle: true,
+                  title: appBarTitle,
+                  centerTitle: true,
                   actions: [
                     IconButton(
                       icon: actionIcon,
