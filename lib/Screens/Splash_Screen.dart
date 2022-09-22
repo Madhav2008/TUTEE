@@ -36,12 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
         : '../assets/images/WhatsAppIndiaLogo.png';
 
     return
-      builder: (context, snapshot) {
-        // if (snapshot.hasError) {
-        //   return NoConnection(image: '../assets/images/2.png');
-        // }
-        // if (snapshot.connectionState == ConnectionState.done) {
-        return ChangeNotifierProvider(
+     ChangeNotifierProvider(
           create: (context) {
             ConnectivityChangeNotifier changeNotifier =
                 ConnectivityChangeNotifier();
