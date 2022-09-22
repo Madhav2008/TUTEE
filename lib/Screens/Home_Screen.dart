@@ -161,7 +161,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                         text: 'statusC',
                       ),
                       Tab(
-                        text: 'callsC'.tr,
+                        text: 'callsC',
                       ),
                     ],
                   ),
