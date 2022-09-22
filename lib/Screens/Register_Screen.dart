@@ -363,7 +363,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: TextField(
                     controller: bioController,
-                    expands: true,maxLines
+                    expands: true,maxLines:null,
                     style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       enabledBorder: const OutlineInputBorder(
