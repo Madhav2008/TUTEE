@@ -327,7 +327,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       onSwipe: () {},
                       onTap: () {},
                     ),
-                    Text('TUTOR'),
+                    Text('TUTOR',style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white,
+                      ),),
                   ],
                 ),
                 SizedBox(height: 20),
