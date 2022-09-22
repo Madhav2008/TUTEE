@@ -3,12 +3,6 @@ import 'package:flutter/material.dart';
 class NavigationScreen extends StatefulWidget {
   NavigationScreen({
     Key? key,
-    required this.cameras,
-    required this.name,
-    required this.avatar,
-    required this.phoneno,
-    required this.countryCode,
-    required this.about,
     // required this.sourceChat,
     // required this.chatModels,
   }) : super(key: key);
