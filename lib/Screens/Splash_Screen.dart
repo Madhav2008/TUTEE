@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Image.asset(
               '../assets/LogoS.png',
-              width: 85,
+              width: 300,
               height: 85,
             ),
             SizedBox(
