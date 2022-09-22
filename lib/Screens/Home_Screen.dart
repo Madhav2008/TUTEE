@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen>
                         ),
                         textTheme: TextTheme().apply(),
                       ),
-                      child: Icon(Icons.search),
+                      child: Container(),
                     ),
                   ],
                   floating: true,
