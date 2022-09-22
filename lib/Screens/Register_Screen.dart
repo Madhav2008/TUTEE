@@ -316,7 +316,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 15.0),
+                      padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: LiteRollingSwitch(
                         value: false,
                         textOn: "TUTOR",
