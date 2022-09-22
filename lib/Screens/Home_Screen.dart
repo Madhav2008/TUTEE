@@ -136,7 +136,6 @@ class _NavigationScreenState extends State<NavigationScreen>
                         ),
                         textTheme: TextTheme().apply(),
                       ),
-                      
                     ),
                   ],
                   floating: true,
