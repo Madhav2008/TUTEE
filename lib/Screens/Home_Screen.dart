@@ -136,7 +136,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                         ),
                         textTheme: TextTheme().apply(),
                       ),
-                      child: Icon(),
+                      child: Icon(Icons.search),
                     ),
                   ],
                   floating: true,
