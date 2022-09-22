@@ -320,7 +320,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       child: LiteRollingSwitch(
                         value: false,
                         textOn: "TUTOR",
-                        textOff: "TUTEE",textSize: ,
+                        textOff: "TUTEE",textSize: 20,
                         colorOn: Colors.greenAccent,
                         colorOff: Colors.redAccent,
                         iconOn: Icons.bookmark,
