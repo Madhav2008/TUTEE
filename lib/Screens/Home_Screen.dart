@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen>
   final TextEditingController _hi = TextEditingController();
 
   Widget appBarTitle = Text(
-    'WhatsApp India',
+    'TUTEE',
     style: TextStyle(
       fontSize: 20,
       letterSpacing: 2,
