@@ -5,14 +5,6 @@ class NavigationScreen extends StatefulWidget {
     Key? key,
   }) : super(key: key);
 
-  final String name;
-  final String about;
-  final String avatar;
-  final String phoneno;
-  final String countryCode;
-  // final ChatModel sourceChat;
-  // final List<ChatModel> chatModels;
-
   @override
   _NavigationScreenState createState() => _NavigationScreenState();
 }
