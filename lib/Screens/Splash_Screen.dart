@@ -81,14 +81,12 @@ class _SplashScreenState extends State<SplashScreen> {
                 ],
               ),
             ),
-          ),
-        );
+          
         // }
         // return SpinKitFadingCube(
         //   size: 50,
         //   color: one,
         // );
-      },
     );
   }
 }
