@@ -314,7 +314,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   onDoubleTap: () {},
                   onChanged: (bool) {},
                   onSwipe: (bool) {},
-                  onTap: null,
+                  onTap: (bool) {},
                 ),
                 SizedBox(height: 20),
                 Padding(
