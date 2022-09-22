@@ -365,7 +365,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     controller: bioController,
                     expands: true,
                     maxLines: 1,
-                    minLines: 0,
+                    // minLines: 0,
                     style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       enabledBorder: const OutlineInputBorder(
