@@ -93,7 +93,8 @@ class _HomeScreenState extends State<HomeScreen>
                             actionIcon = Icon(Icons.close);
                             appBarTitle = TextField(
                               style: TextStyle(
-                                color: Colors.white,letterSpacing: 10,
+                                color: Colors.white,
+                                letterSpacing: 10,
                               ),
                               autofocus: true,
                               controller: _hi,
