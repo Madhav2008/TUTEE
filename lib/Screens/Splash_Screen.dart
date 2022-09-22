@@ -36,56 +36,56 @@ class _SplashScreenState extends State<SplashScreen> {
         : '../assets/images/WhatsAppIndiaLogo.png';
 
     return Scaffold(
-            body: Align(
-              alignment: Alignment.center,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Image.asset(
-                    logo,
-                    width: 85,
-                    height: 85,
-                  ),
-                  SizedBox(
-                    height: 250,
-                  ),
-                  Text(
-                    'from',
-                    style: TextStyle(
-                      color: grey,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(
-                        '../assets/images/meta.png',
-                        color: secondary,
-                        width: 30,
-                        height: 30,
-                      ),
-                      Text(
-                        'Meta',
-                        style: TextStyle(
-                          color: secondary,
-                          letterSpacing: 3,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+      body: Align(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              logo,
+              width: 85,
+              height: 85,
+            ),
+            SizedBox(
+              height: 250,
+            ),
+            Text(
+              'from',
+              style: TextStyle(
+                color: grey,
+                fontWeight: FontWeight.bold,
               ),
             ),
-        // }
-        // return SpinKitFadingCube(
-        //   size: 50,
-        //   color: one,
-        // );
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  '../assets/images/meta.png',
+                  color: secondary,
+                  width: 30,
+                  height: 30,
+                ),
+                Text(
+                  'Meta',
+                  style: TextStyle(
+                    color: secondary,
+                    letterSpacing: 3,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+      // }
+      // return SpinKitFadingCube(
+      //   size: 50,
+      //   color: one,
+      // );
     );
   }
 }
