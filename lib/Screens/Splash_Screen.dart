@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Text(
               'from',
               style: TextStyle(
-                color: grey,
+                color: Colors.grey,
                 fontWeight: FontWeight.bold,
               ),
             ),
