@@ -161,12 +161,12 @@ class _LoginScreenState extends State<LoginScreen> {
                         //     .signInWithEmailAndPassword(
                         //         emailController.text, passwordController.text)
                         //     .then((auth) {
-                        // Navigator.pushReplacement(
-                        //   context,
-                        //   MaterialPageRoute(
-                        //     builder: (context) => Navigation(),
-                        //   ),
-                        // );
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Navigation(),
+                          ),
+                        );
                         Fluttertoast.showToast(
                           msg: "Login Successfully!!",
                           webBgColor:
