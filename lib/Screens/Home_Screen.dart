@@ -1,18 +1,5 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:whatsapp/Constants/Constants.dart';
-import 'package:whatsapp/Screens/Calls_Screen/Calls_Screen.dart';
-import 'package:whatsapp/Screens/Camera_Screen/Camera_Screen.dart';
-import 'package:whatsapp/Screens/Chats_Screen/Chats_Screen.dart';
-import 'package:whatsapp/Screens/Create_Group/Create_Group.dart';
-import 'package:whatsapp/Screens/Linked_Devices/Linked_Devices.dart';
-import 'package:whatsapp/Screens/New_Broadcast/New_Broadcast.dart';
-import 'package:whatsapp/Screens/Payment_Screen/Payment_Screen.dart';
-import 'package:whatsapp/Screens/Select_Contact/Select_Contact.dart';
-import 'package:whatsapp/Screens/Settings_Screen/Settings_Screen.dart';
-import 'package:whatsapp/Screens/Starred_Messages/Starred_Messages.dart';
-import 'package:whatsapp/Screens/Status_Screen/Status_Screen.dart';
 
 class NavigationScreen extends StatefulWidget {
   late List<CameraDescription> cameras;
