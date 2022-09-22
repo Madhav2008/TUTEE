@@ -105,7 +105,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                                   size: 26,
                                   color: Colors.white,
                                 ),
-                                hintText: "search".tr,
+                                hintText: "search".r,
                                 hintStyle: TextStyle(
                                   color: Colors.white,
                                 ),
