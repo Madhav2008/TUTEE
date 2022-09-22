@@ -84,8 +84,8 @@ class _HomeScreenState extends State<HomeScreen>
                   title: appBarTitle,
                   titleTextStyle: TextStyle(
                     color: Colors.white,
-                    fontSize: 20,
-                    letterSpacing: 10,
+                                fontSize: 20,
+                                letterSpacing: 10,
                   ),
                   centerTitle: true,
                   actions: [
