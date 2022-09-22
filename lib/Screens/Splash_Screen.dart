@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tutee_app/Screens/Login_Screen.dart';
 // import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -22,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => LandingPage(),
+            builder: (context) => LoginScreen(),
           ),
         );
       },
