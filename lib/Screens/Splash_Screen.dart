@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Text(
                   'Madhav',
                   style: TextStyle(
-                    color: secondary,
+                    color: Colors.deepPurple,
                     letterSpacing: 3,
                     fontWeight: FontWeight.bold,
                   ),
