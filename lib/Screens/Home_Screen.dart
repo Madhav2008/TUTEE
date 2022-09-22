@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen>
             headerSliverBuilder:
                 (BuildContext context, bool innerBoxIsScrolled) {
               return <Widget>[
-                SliverAppBar(
+                SliverAppBar(backgroundColor: ,
                   automaticallyImplyLeading: false,
                   title: appBarTitle,
                   actions: [
