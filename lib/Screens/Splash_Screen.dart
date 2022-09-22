@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:provider/provider.dart';
-import 'package:whatsapp/Constants/Constants.dart';
-import 'package:whatsapp/No_Connection/No_Connection.dart';
-import 'package:whatsapp/Screens/Landing_Page/Landing_Page.dart';
-import 'package:whatsapp/Screens/No_Connection_Screen/No_Connection_Screen.dart';
-import 'package:whatsapp/Theme/Provider/Theme_Provider.dart';
-import 'package:firebase_core/firebase_core.dart';
 
 class SplashScreen extends StatefulWidget {
   SplashScreen({
