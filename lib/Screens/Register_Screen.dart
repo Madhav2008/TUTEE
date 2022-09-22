@@ -310,6 +310,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   colorOn: Colors.greenAccent,
                   colorOff: Colors.redAccent,
                   iconOn: Icons.done,
+                  iconOn: Icons.done,
                 ),
                 SizedBox(height: 20),
                 Padding(
