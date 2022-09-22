@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen>
                   titleTextStyle:  TextStyle(
                                 fontSize: 20,
                                 letterSpacing: 10,
-                              ),,
+                              ),
                   centerTitle: true,
                   actions: [
                     IconButton(
