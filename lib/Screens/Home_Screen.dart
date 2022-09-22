@@ -149,7 +149,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                     labelStyle: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
-                    unselectedLabelColor: grey,
+                    unselectedLabelColor: Colors.grey,
                     tabs: [
                       Tab(
                         icon: Icon(Icons.camera_alt),
