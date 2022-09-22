@@ -66,7 +66,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   height: 30,
                 ),
                 Text(
-                  'Meta',
+                  'Madhav',
                   style: TextStyle(
                     color: secondary,
                     letterSpacing: 3,
