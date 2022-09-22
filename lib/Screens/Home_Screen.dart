@@ -226,67 +226,6 @@ class _NavigationScreenState extends State<NavigationScreen>
         ),
       );
 
-  void onSelected(BuildContext context, int item) {
-    switch (item) {
-      case 0:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => CreateGroup(),
-          ),
-        );
-        break;
-      case 1:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => NewBroadcast(),
-          ),
-        );
-        break;
-      case 2:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => LinkedDevices(
-              name: widget.name,
-              about: widget.about,
-              phoneno: widget.phoneno,
-              avatar: widget.avatar,
-              countryCode: widget.countryCode,
-              // sourceChat: widget.sourceChat,
-              // chatModels: widget.chatModels,
-            ),
-          ),
-        );
-        break;
-      case 3:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => StarredMessages(),
-          ),
-        );
-        break;
-      case 4:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => PaymentScreen(),
-          ),
-        );
-        break;
-      case 5:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => SettingsScreen(
-              name: widget.name,
-              about: widget.about,
-              avatar: widget.avatar,
-              phoneno: widget.phoneno,
-              countryCode: widget.countryCode,
-            ),
-          ),
-        );
-        break;
-    }
-  }
-
   void _handleSearchStart() {
     setState(() {
       _IsSearching = true;
