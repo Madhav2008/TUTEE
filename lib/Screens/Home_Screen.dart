@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen>
                 SliverAppBar(
                   backgroundColor: Colors.deepPurple[600],
                   automaticallyImplyLeading: false,
-                  title: appBarTitle,
+                  title: 'TUTEE',
                   titleTextStyle: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
