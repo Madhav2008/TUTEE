@@ -135,7 +135,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                           color: Colors.white,
                         ),
                         textTheme: TextTheme().apply(),
-                      ),
+                      ), child: null,
                     ),
                   ],
                   floating: true,
