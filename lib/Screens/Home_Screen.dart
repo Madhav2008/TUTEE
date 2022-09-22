@@ -205,7 +205,7 @@ class _NavigationScreenState extends State<NavigationScreen>
           ),
           floatingActionButton: showFab
               ? FloatingActionButton(
-                  backgroundColor: one,
+                  backgroundColor: Colors.deepPurple[600],
                   child: Icon(
                     Icons.message,
                     color: Colors.white,
