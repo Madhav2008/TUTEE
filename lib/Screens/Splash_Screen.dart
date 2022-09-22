@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/LogoS.png',
+              'assets/LogoS.png',
               width: 85,
               height: 85,
             ),
