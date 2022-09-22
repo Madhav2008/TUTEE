@@ -208,7 +208,7 @@ class _HomeScreenState extends State<HomeScreen>
               ? FloatingActionButton(
                   backgroundColor: Colors.deepPurple[600],
                   child: Icon(
-                    Icons.message,
+                    Icons.calendar_month,
                     color: Colors.white,
                   ),
                   onPressed: () {
