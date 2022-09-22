@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class NavigationScreen extends StatefulWidget {
-  NavigationScreen({
+class HomeScreen extends StatefulWidget {
+  HomeScreen({
     Key? key,
   }) : super(key: key);
 
   @override
-  _NavigationScreenState createState() => _NavigationScreenState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _NavigationScreenState extends State<NavigationScreen>
+class _HomeScreenState extends State<HomeScreen>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
@@ -34,7 +34,7 @@ class _NavigationScreenState extends State<NavigationScreen>
   late bool _IsSearching;
   String _searchText = "";
 
-  _NavigationScreenState() {
+  _HomeScreenState() {
     _hi.addListener(() {
       _hi.value = query;
       if (_hi.text.isEmpty) {
