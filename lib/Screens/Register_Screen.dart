@@ -307,7 +307,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     onTap: onTap,
                     onDoubleTap: onDoubleTap,
                     onSwipe: onSwipe,
-                    onChanged: onChanged),
+                    onChanged: onChanged,),
                 SizedBox(height: 20),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
