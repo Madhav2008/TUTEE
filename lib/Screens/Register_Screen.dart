@@ -322,7 +322,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         textOn: "TUTOR",
                         textOff: "TUTEE",
                         textSize: 17,
-                        colorOn: Colors.deepPurple,
+                        colorOn: Colors.deepPurple[400],
                         colorOff: Colors.redAccent,
                         iconOn: Icons.bookmark,
                         iconOff: Icons.book,
