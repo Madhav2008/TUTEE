@@ -158,7 +158,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                         text: 'chatsC',
                       ),
                       Tab(
-                        text: 'statusC'.tr,
+                        text: 'statusC',
                       ),
                       Tab(
                         text: 'callsC'.tr,
