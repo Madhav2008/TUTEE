@@ -307,7 +307,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('TUTEE',style: TextStyle(),),
+                    Text(
+                      'TUTEE',
+                      style: TextStyle(),
+                    ),
                     LiteRollingSwitch(
                       value: false,
                       textOn: "TUTOR",
