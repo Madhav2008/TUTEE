@@ -310,7 +310,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     Text(
                       'TUTEE',
                       style: TextStyle(
-                        fontSize: 25,
+                        fontSize: 20,
                         color: Colors.white,
                       ),
                     ),
