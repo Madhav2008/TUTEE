@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen>
                             );
                             appBarTitle = Text(
                               'TUTEE',
-                              style: TextStyle(
+                              style: TextStyle(color: Colors.white,
                                 fontSize: 20,
                                 letterSpacing: 10,
                               ),
