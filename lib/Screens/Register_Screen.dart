@@ -304,7 +304,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                 ),
                 LiteRollingSwitch(
-                  value: true,textOn: "On",
+                  value: true,
+                  textOn: "On",
                 ),
                 SizedBox(height: 20),
                 Padding(
