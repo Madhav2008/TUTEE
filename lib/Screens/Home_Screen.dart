@@ -155,7 +155,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                         icon: Icon(Icons.camera_alt),
                       ),
                       Tab(
-                        text: 'chatsC'.tr,
+                        text: 'chatsC',
                       ),
                       Tab(
                         text: 'statusC'.tr,
