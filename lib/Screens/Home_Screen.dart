@@ -130,7 +130,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                     ),
                     Theme(
                       data: Theme.of(context).copyWith(
-                        dividerColor: black,
+                        dividerColor: Colors.black,
                         iconTheme: IconThemeData(
                           color: Colors.white,
                         ),
