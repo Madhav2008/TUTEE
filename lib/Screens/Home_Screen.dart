@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen>
                               'TUTEE',
                               style: TextStyle(
                                 fontSize: 20,
-                                letterSpacing: 3,
+                                letterSpacing: 10,
                               ),
                             );
                           }
