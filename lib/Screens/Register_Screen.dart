@@ -362,7 +362,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20.0),
                   child: TextField(
-                    obscureText: true,
                     controller: bioController,
                     style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
