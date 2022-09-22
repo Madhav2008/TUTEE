@@ -311,7 +311,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   colorOff: Colors.redAccent,
                   iconOn: Icons.bookmark,
                   iconOff: Icons.book,
-                  onDoubleTap: null,
+                  onDoubleTap: (){},
                 ),
                 SizedBox(height: 20),
                 Padding(
