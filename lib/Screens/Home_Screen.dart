@@ -72,9 +72,6 @@ class _HomeScreenState extends State<HomeScreen>
 
   @override
   Widget build(BuildContext context) =>
-      //  _tabController.index == 0
-      // ? CameraScreen(cameras: [])
-      // :
       DefaultTabController(
         length: 4,
         child: Scaffold(
