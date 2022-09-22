@@ -144,7 +144,7 @@ class _NavigationScreenState extends State<NavigationScreen>
                             child: Row(
                               children: [
                                 Text(
-                                  'group'.tr,
+                                  'group',
                                   style: TextStyle(
                                     fontSize: 14,
                                   ),
