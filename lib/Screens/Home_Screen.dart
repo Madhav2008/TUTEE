@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen>
                 SliverAppBar(
                   backgroundColor: Colors.deepPurple[600],
                   automaticallyImplyLeading: false,
-                  title: appBarTitle,
+                  title: appBarTitle,centerTitle: true,
                   actions: [
                     IconButton(
                       icon: actionIcon,
