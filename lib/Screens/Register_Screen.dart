@@ -388,7 +388,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 20,
                 ),
                 Center(
                   child: GestureDetector(
