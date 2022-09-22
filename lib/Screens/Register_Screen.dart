@@ -309,7 +309,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   children: [
                     Text(
                       'TUTEE',
-                      style: TextStyle(fontSize: 25),
+                      style: TextStyle(fontSize: 25,),
                     ),
                     LiteRollingSwitch(
                       value: false,
