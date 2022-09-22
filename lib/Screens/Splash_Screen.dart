@@ -35,8 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
         ? '../assets/images/WhatsAppIndiaLogo1.png'
         : '../assets/images/WhatsAppIndiaLogo.png';
 
-    return FutureBuilder(
-      future: _initialization,
+    return
       builder: (context, snapshot) {
         // if (snapshot.hasError) {
         //   return NoConnection(image: '../assets/images/2.png');
