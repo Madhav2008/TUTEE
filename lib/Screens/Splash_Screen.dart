@@ -64,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Image.asset(
                   '../assets/LogoA.png',
                   color: Colors.white,
-                  width: 30,
+                  width: 50,
                   height: 30,
                 ),
                 Text(
