@@ -302,7 +302,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       focusColor: Colors.white,
                     ),
                   ),
-                ),
+                ),SizedBox(height: 20),
                 LiteRollingSwitch(
                   value: false,
                   textOn: "TUTOR",
