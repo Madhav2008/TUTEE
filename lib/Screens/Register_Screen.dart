@@ -380,10 +380,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           width: 0.0,
                         ),
                       ),
-                      hintText: 'Bio',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
+                      // hintText: 'Bio',
+                      // hintStyle: TextStyle(
+                      //   color: Colors.white,
+                      // ),
                       fillColor: Colors.white,
                       focusColor: Colors.white,
                     ),
