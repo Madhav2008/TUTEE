@@ -304,10 +304,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                 ),
                 LiteRollingSwitch(
-                  onTap: onTap,
-                  onDoubleTap: onDoubleTap,
-                  onSwipe: onSwipe,
-                  onChanged: onChanged,
+                  value:true
                 ),
                 SizedBox(height: 20),
                 Padding(
