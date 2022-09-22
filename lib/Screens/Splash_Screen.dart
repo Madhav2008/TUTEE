@@ -31,8 +31,6 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final Future<FirebaseApp> _initialization = Firebase.initializeApp();
-
     final logo = Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
         ? '../assets/images/WhatsAppIndiaLogo1.png'
         : '../assets/images/WhatsAppIndiaLogo.png';
