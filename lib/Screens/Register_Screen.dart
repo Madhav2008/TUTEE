@@ -312,7 +312,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   iconOn: Icons.bookmark,
                   iconOff: Icons.book,
                   onDoubleTap: () {},
-                  onChanged: (bool) {}, onSwipe: null,
+                  onChanged: (bool) {},
+                  onSwipe: null,
                 ),
                 SizedBox(height: 20),
                 Padding(
