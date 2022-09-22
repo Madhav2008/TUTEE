@@ -183,18 +183,18 @@ class _NavigationScreenState extends State<NavigationScreen>
                 TabBarView(
               controller: _tabController,
               children: <Widget>[
-                CameraScreen(
-                  cameras: [],
-                ),
-                ChatsScreen(
-                    // sourceChat: widget.sourceChat,
-                    // chatModels: widget.chatModels,
-                    ),
-                StatusScreen(),
-                CallsScreen(
-                    // sourceChat: widget.sourceChat,
-                    // chatModels: widget.chatModels,
-                    ),
+                // CameraScreen(
+                //   cameras: [],
+                // ),
+                // ChatsScreen(
+                //     // sourceChat: widget.sourceChat,
+                //     // chatModels: widget.chatModels,
+                //     ),
+                // StatusScreen(),
+                // CallsScreen(
+                //     // sourceChat: widget.sourceChat,
+                //     // chatModels: widget.chatModels,
+                //     ),
               ],
             ),
             // } else {
